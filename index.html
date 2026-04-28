@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Conversa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Gerador de Conversa Fake</h1>
+
+  <input type="text" id="nome" placeholder="Nome do contato">
+
+  <div class="file-box">
+    <input type="file" id="foto">
+  </div>
+
+  <input type="text" id="mensagem" placeholder="Digite a mensagem">
+
+  <div class="buttons">
+    <button onclick="enviar()">Enviar</button>
+    <button onclick="receber()">Receber</button>
+  </div>
+
+  <div class="buttons">
+    <button onclick="baixarPrint()">Baixar Print</button>
+    <button onclick="limpar()">Limpar</button>
+  </div>
+
+  <div id="chat"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
